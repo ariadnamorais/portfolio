@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:  Helvetica, sans-serif;
+    font-size: 1.2rem;
+    
+} 
+
+.navbar{
+    position: fixed;
+    display: flex;
+    background-color: #280040;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 100%;
+    z-index:1; /*Sobrepor (trazer para frente)*/
+    
+     
+}
+.navbar-list li{
+    display: inline;
+    padding: 20px;
+    margin-left: 10px;
+    
+}
+.navbar-list li a, .brand{
+    color: #EEC803;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20pt;
+    margin-right: 20pt;   
+     
+}
+section{
+    height: 100vh;
+    
+}
+#Home{
+    background-image: url('./pc.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto{
+    border: 2px solid #EEC803;
+    border-radius: 150px;
+    width: 200px;
+    height: 190px;
+    background-image: url('./FOTO.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+       
+    
+    }
+
+.nome{
+    position: fixed;
+    display: flex;
+    background-color: #EEC803;
+    color:#280040;
+    font-weight: bold;
+    font-size: 2.2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+   
+}
+
+#Sobre{
+    background-color: #EEC803;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
